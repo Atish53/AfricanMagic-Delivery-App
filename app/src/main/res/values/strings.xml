@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AfricanMagic - Delivery App</string>
+    <string name="title_activity_delivery">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

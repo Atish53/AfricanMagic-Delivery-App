@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.africanmagic_deliveryapp.SuccessDeliveryActivity">
+
+    <TextView
+        android:id="@+id/Textvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Successful Deliveries"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="345dp"
+        android:layout_marginLeft="345dp"
+        android:layout_marginTop="8dp"
+        android:text="Pending"
+        tools:text="Pending" />
+
+    <Button
+        android:id="@+id/pendingFromSucc"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="347dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/ic_arrow_forward" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Textvv"
+        android:choiceMode="multipleChoice"
+        android:id="@+id/listView" />
+
+</RelativeLayout>
